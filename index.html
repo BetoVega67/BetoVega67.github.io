@@ -1,15 +1,55 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <form method="POST" action="controlador/validarUsuario.php">
-            
-             Nome: <input type="text" name="nome"></input> <br>
-             E-mail: <input type="text" name="email"></input> <br>
-             Senha: <input type="text" name="senha"></input> <br>
-             
-             <input type="submit" value="Entrar"></input> <br>
-         </form>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>OKRforlife</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/scripts.js"></script>
+
+</head>
+
+<body class="bg-dark">
+
+    <header>
+        <div class="text-center text-success p-3 copy">
+            <p>OKRforlife</p>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="text-center text-white container col-8 col-md-5 col-xl-3">
+            <form method="POST" action="controlador/validarUsuario.php">
+                
+                <input type="text" name="nome"></input> <br>
+                Nome <br>
+                <input type="text" name="email"></input> <br>
+                e-mail <br>
+                <input type="text" name="senha"></input> <br>
+                Senha <br><br><br><br>
+
+                <input class="rounded" type="submit" value="Entrar"></input> <br>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="text-center text-white p-3 copy">
+            <p>Todos Direitos Reservados © 2022 Copyright</p>
+            <p>Desenvolvido por Joei Vicente, José Alberto, Luiza Janeri, Marco Maciel e Rafael Santana</p>
+        </div>
+    </footer>     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
