@@ -1,5 +1,5 @@
 <html>
     <body>   
-        <?php echo $nome $email $senha ?>
+        <?php echo $nome ?>
     </body>
 </html>
