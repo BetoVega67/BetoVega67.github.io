@@ -1,5 +1,5 @@
 <html>
-    <body>   
-        <?php echo $nome ?>
+    <body>
+         Olá <?= $nome?>
     </body>
 </html>
