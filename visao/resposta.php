@@ -1,5 +1,5 @@
 <html>
-    <body>
-        <?php echo $resposta ?>
+    <body>   
+        <?php echo $nome $email $senha ?>
     </body>
 </html>
