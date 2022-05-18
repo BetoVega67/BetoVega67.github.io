@@ -3,5 +3,5 @@
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     
-    include "resposta.php";
+    include "../visao/resposta.php";
 ?>
